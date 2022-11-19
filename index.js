@@ -38,21 +38,20 @@ const sumNumber = (a,b) => a+b
 //console.log(sumNumber(9,1))
 
 const{name,detail:{salary}} = worker
-//console.log(salary)
+//console.log(name,salary)
 
-const people = {
-    name:'Siripong',
-    nickname:'Fluk',
-    hobby:'Video-Game',
-    address:'You not need to Know about this',
-    province:{
-        province:'Thai',
-        postcode:6486
-    }
-}
+//--------------Spread Oprator
 
-function getPeople({nickname, hobby, province}){
-    return `${nickname} ${hobby} ${province.postcode}`
-}
+const obj1 = {name:'red' , age:60};
+const obj2 = {name:'nite', age:30};
+const newObj= {obj1,obj2,plate:'earth'}
 
-console.log(getPeople(people));
+//console.log(newObj)
+
+//Arrays
+const a2 = [
+    { name: 'Jonh', age:39 },
+    { name: 'Bob', age:30},
+    { name: 'Marry', age:16 },   
+    ];
+console.log(a2[1])
