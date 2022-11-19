@@ -1,0 +1,23 @@
+{
+  "name": "Siripong",
+  "version": "1.0.0",
+  "description": "\"#git101\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragon150766/2013110305-RestfulAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragon150766/2013110305-RestfulAPI/issues"
+  },
+  "homepage": "https://github.com/dragon150766/2013110305-RestfulAPI#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
